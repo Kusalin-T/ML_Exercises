@@ -20,7 +20,7 @@ for i in range (5):
         print("Keep running")
     if i==4: print("Race Over Congrats")    
 
-
+print(''.join([''.join(['*' for _ in range(n)]) + '\n' for n in range(6)]))
 
 
 
